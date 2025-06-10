@@ -101,7 +101,7 @@
                 <h3 class="text-lg font-semibold text-gray-900 mb-2">2024 Solar Panel Efficiency Report</h3>
                 <p class="text-gray-600 text-sm mb-4">Latest breakthroughs in photovoltaic technology and efficiency improvements across different panel types.</p>
                 <div class="flex items-center justify-between">
-                  <span class="text-sm text-gray-500">Dec 15, 2024</span>
+                  <span class="text-sm text-gray-500">Jun 10, 2025</span>
                   <a href="solar-detail.php" class="text-eco-green-600 hover:text-eco-green-700 font-medium text-sm">Read More →</a>
                 </div>
               </div>
@@ -115,7 +115,7 @@
                 <h3 class="text-lg font-semibold text-gray-900 mb-2">Offshore Wind Farm Development</h3>
                 <p class="text-gray-600 text-sm mb-4">Comprehensive guide to planning and implementing offshore wind energy projects.</p>
                 <div class="flex items-center justify-between">
-                  <span class="text-sm text-gray-500">Dec 10, 2024</span>
+                  <span class="text-sm text-gray-500">Jun 01, 2025</span>
                   <a href="wind-detail.php" class="text-eco-green-600 hover:text-eco-green-700 font-medium text-sm">Read More →</a>
                 </div>
               </div>
@@ -129,7 +129,7 @@
                 <h3 class="text-lg font-semibold text-gray-900 mb-2">Micro-Hydro Systems for Rural Areas</h3>
                 <p class="text-gray-600 text-sm mb-4">How small-scale hydroelectric systems can provide sustainable power to remote communities.</p>
                 <div class="flex items-center justify-between">
-                  <span class="text-sm text-gray-500">Jun 5, 2024</span>
+                  <span class="text-sm text-gray-500">Jun 05, 2025</span>
                   <a href="hydro-detail.php" class="text-eco-green-600 hover:text-eco-green-700 font-medium text-sm">Read More →</a>
                 </div>
               </div>
