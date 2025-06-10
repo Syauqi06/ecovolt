@@ -91,7 +91,8 @@
               Stay up to date with the latest developments in renewable energy technology and industry best practices.
             </p>
           </div>
-          
+
+          <!-- Solar Energy Articles -->
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <article class="bg-white rounded-lg shadow-lg overflow-hidden hover-lift">
               <img src="assets/img/solar.jpg" alt="Solar Energy" class="h-48 w-full object-cover">
@@ -101,11 +102,12 @@
                 <p class="text-gray-600 text-sm mb-4">Latest breakthroughs in photovoltaic technology and efficiency improvements across different panel types.</p>
                 <div class="flex items-center justify-between">
                   <span class="text-sm text-gray-500">Dec 15, 2024</span>
-                  <a href="#solar" class="text-eco-green-600 hover:text-eco-green-700 font-medium text-sm">Read More →</a>
+                  <a href="solar-detail.php" class="text-eco-green-600 hover:text-eco-green-700 font-medium text-sm">Read More →</a>
                 </div>
               </div>
             </article>
 
+            <!-- Wind Power Articles -->
             <article class="bg-white rounded-lg shadow-lg overflow-hidden hover-lift">
               <img src="assets/img/turbin.jpg" alt="Wind Power" class="h-48 w-full object-cover">
               <div class="p-6">
@@ -114,11 +116,12 @@
                 <p class="text-gray-600 text-sm mb-4">Comprehensive guide to planning and implementing offshore wind energy projects.</p>
                 <div class="flex items-center justify-between">
                   <span class="text-sm text-gray-500">Dec 10, 2024</span>
-                  <a href="#" class="text-eco-green-600 hover:text-eco-green-700 font-medium text-sm">Read More →</a>
+                  <a href="wind-detail.php" class="text-eco-green-600 hover:text-eco-green-700 font-medium text-sm">Read More →</a>
                 </div>
               </div>
             </article>
 
+            <!-- Hydro Power Articles -->
             <article class="bg-white rounded-lg shadow-lg overflow-hidden hover-lift">
               <img src="assets/img/dam.jpg" alt="Hydro Power" class="h-48 w-full object-cover">
               <div class="p-6">
@@ -127,7 +130,7 @@
                 <p class="text-gray-600 text-sm mb-4">How small-scale hydroelectric systems can provide sustainable power to remote communities.</p>
                 <div class="flex items-center justify-between">
                   <span class="text-sm text-gray-500">Jun 5, 2024</span>
-                  <a href="#" class="text-eco-green-600 hover:text-eco-green-700 font-medium text-sm">Read More →</a>
+                  <a href="hydro-detail.php" class="text-eco-green-600 hover:text-eco-green-700 font-medium text-sm">Read More →</a>
                 </div>
               </div>
             </article>
