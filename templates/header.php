@@ -6,7 +6,10 @@
     <title>EcoVolt - Renewable Energy Solutions</title>
     <meta name="description" content="Transform your energy future with EcoVolt's innovative renewable energy solutions. Solar, wind, hydro, and energy storage systems for a sustainable tomorrow." />
     
+    <!-- Favicon -->
     <link rel="shortcut icon" href="assets/img/logo.png" type="image/png">
+
+    <!-- Preconnects and Styles Links for Google Fonts and Tailwind -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />

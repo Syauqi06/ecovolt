@@ -12,7 +12,7 @@
 <section class="py-16 bg-white">
   <div class="max-w-4xl mx-auto px-4 space-y-8">
     
-    <img src="assets/img/home-solar.jpg" alt="Solar Panel" class="w-full rounded-lg shadow-md">
+    <img src="assets/articles/home-solar.jpg" alt="Solar Panel" class="w-full rounded-lg shadow-md">
 
     <p class="text-lg text-gray-700">
       Discover how solar energy can power your home or business sustainably and efficiently. Our solutions are designed to maximize energy production while minimizing costs.

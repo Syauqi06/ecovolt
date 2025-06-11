@@ -28,9 +28,9 @@
           <div>
             <h3 class="text-lg font-semibold mb-4">Services</h3>
             <ul class="space-y-2 text-gray-400">
-              <li>Solar Energy</li>
-              <li>Wind Power</li>
-              <li>Hydro Power</li>
+              <li><a href="solar-detail.php" class="text-gray-400 hover:text-white transition-colors">Solar Energy</a></li>
+              <li><a href="wind-detail.php" class="text-gray-400 hover:text-white transition-colors">Wind Power</a></li>
+              <li><a href="hydro-detail.php" class="text-gray-400 hover:text-white transition-colors">Hydro Power</a></li>
               <li>Energy Storage</li>
               <li>Consultation</li>
             </ul>

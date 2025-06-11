@@ -12,7 +12,7 @@
 <section class="py-16 bg-white">
   <div class="max-w-4xl mx-auto px-4 space-y-8">
 
-    <img src="assets/img/wind-power.jpg" alt="Wind Turbine" class="w-full rounded-lg shadow-md">
+    <img src="assets/articles/wind-power.jpg" alt="Wind Turbine" class="w-full rounded-lg shadow-md">
 
     <p class="text-lg text-gray-700">
       Wind energy is a clean, renewable power source that harnesses the kinetic energy of wind to generate electricity efficiently and reliably.

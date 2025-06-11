@@ -89,3 +89,35 @@ function handleNewsletterSignup(event) {
   // Add newsletter signup logic here
   console.log('Newsletter signup submitted');
 }
+// Modal handling
+  function openModal(title, content) {
+    document.getElementById('modalTitle').innerText = title;
+    document.getElementById('modalContent').innerText = content;
+
+    const modal = document.getElementById('resourceModal');
+    const box = document.getElementById('modalBox');
+
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+
+    // Timeout agar transisi berjalan setelah render
+    setTimeout(() => {
+      box.classList.remove('scale-95', 'opacity-0');
+      box.classList.add('scale-100', 'opacity-100');
+    }, 10);
+}
+
+  function closeModal() {
+    const modal = document.getElementById('resourceModal');
+    const box = document.getElementById('modalBox');
+
+    // Transisi keluar
+    box.classList.remove('scale-100', 'opacity-100');
+    box.classList.add('scale-95', 'opacity-0');
+
+    // Tunggu animasi selesai baru sembunyikan modal
+    setTimeout(() => {
+      modal.classList.remove('flex');
+      modal.classList.add('hidden');
+    }, 300);
+}

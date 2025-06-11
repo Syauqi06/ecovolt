@@ -48,37 +48,47 @@
               We're committed to delivering innovative renewable energy solutions that benefit both your bottom line and the environment.
             </p>
           </div>
+
+          <!-- Cards Grid -->
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+            <!-- Solar Energy Card -->
             <div class="hover-lift bg-white border-0 shadow-lg rounded-lg p-6 text-center">
               <div class="w-16 h-16 bg-gradient-to-r from-eco-green-500 to-eco-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span class="material-symbols-outlined" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8 text-white">
+                <span class="material-symbols-outlined" style="color: #ffffff;">
                   solar_power
                 </span>
               </div>
               <h3 class="text-xl font-semibold text-gray-900 mb-2">Solar Energy</h3>
               <p class="text-gray-600">Harness the power of the sun for a cleaner tomorrow</p>
             </div>
+
+            <!-- Wind Power Card -->
             <div class="hover-lift bg-white border-0 shadow-lg rounded-lg p-6 text-center">
               <div class="w-16 h-16 bg-gradient-to-r from-eco-green-500 to-eco-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span class="material-symbols-outlined" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8 text-white">
+                <span class="material-symbols-outlined" style="color: #ffffff;">
                   wind_power
                 </span>
               </div>
               <h3 class="text-xl font-semibold text-gray-900 mb-2">Wind Power</h3>
               <p class="text-gray-600">Convert wind into clean electricity efficiently</p>
             </div>
+
+            <!-- Hydro Power Card -->
             <div class="hover-lift bg-white border-0 shadow-lg rounded-lg p-6 text-center">
               <div class="w-16 h-16 bg-gradient-to-r from-eco-green-500 to-eco-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span class="material-symbols-outlined" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8 text-white">
+                <span class="material-symbols-outlined" style="color: #ffffff;">
                   water_ec
                 </span>
               </div>
               <h3 class="text-xl font-semibold text-gray-900 mb-2">Hydro Power</h3>
               <p class="text-gray-600">Generate clean energy from flowing water</p>
             </div>
+
+            <!-- Reliable Power Card -->
             <div class="hover-lift bg-white border-0 shadow-lg rounded-lg p-6 text-center">
               <div class="w-16 h-16 bg-gradient-to-r from-eco-green-500 to-eco-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span class="material-symbols-outlined">
+                <span class="material-symbols-outlined" style="color: #ffffff;">
                   wb_incandescent
                 </span>
               </div>
@@ -195,7 +205,9 @@
               Contact Us
             </button>
             <button class="border border-eco-green-300 text-eco-green-700 px-8 py-3 rounded-md hover:bg-eco-green-50 transition-colors">
-              Learn More
+              <a href="resources.php">
+                Learn More
+              </a>
             </button>
           </div>
         </div>

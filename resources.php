@@ -34,8 +34,9 @@
                 <li>• Energy Storage Solutions</li>
                 <li>• Grid Integration Fundamentals</li>
               </ul>
-              <button class="w-full bg-gradient-to-r from-eco-green-500 to-eco-blue-500 text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity">
-                Access Guides
+              <button onclick="openModal('Educational Guides', 'Discover comprehensive guides to understand and apply renewable energy technology, from solar panel installation to grid integration. Topics: \n- Solar Panel Installation Guide \n- Wind Energy Basics \n- Hydro Power Systems Overview \n- Energy Storage Solutions \n- Grid Integration Fundamentals')"
+                  class="w-full bg-gradient-to-r from-eco-green-500 to-eco-blue-500 text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity">
+                  Access Guides
               </button>
             </div>
 
@@ -54,7 +55,8 @@
                 <li>• Energy Storage Implementations</li>
                 <li>• ROI Analysis Reports</li>
               </ul>
-              <button class="w-full bg-gradient-to-r from-eco-green-500 to-eco-blue-500 text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity">
+              <button onclick="openModal('Case Studies', 'Explore real-world examples of successful renewable energy projects, from residential solar installations to industrial-scale initiatives. Topics: \n- Residential Solar Success Stories \n- Commercial Wind Projects \n- Industrial Hydro Installations \n- Energy Storage Implementations \n- ROI Analysis Reports')"
+                class="w-full bg-gradient-to-r from-eco-green-500 to-eco-blue-500 text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity">
                 View Case Studies
               </button>
             </div>
@@ -74,13 +76,25 @@
                 <li>• Investment Opportunities</li>
                 <li>• Sustainability Reports</li>
               </ul>
-              <button class="w-full bg-gradient-to-r from-eco-green-500 to-eco-blue-500 text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity">
+              <button onclick="openModal('Industry Insights', 'Stay informed with the latest developments and opportunities in the renewable energy sector. Topics: \n- Market Trends & Forecasts \n- Technology Innovations \n- Policy & Regulations Updates \n- Investment Opportunities \n- Sustainability Reports')"
+                class="w-full bg-gradient-to-r from-eco-green-500 to-eco-blue-500 text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity">
                 Read Insights
               </button>
             </div>
           </div>
         </div>
       </section>
+
+      <!-- Modal for Resource Details -->
+      <div id="resourceModal" class="fixed inset-0 bg-black bg-opacity-50 hidden justify-center items-center z-50 transition-opacity duration-300">
+        <div id="modalBox"
+          class="bg-white p-8 rounded-2xl shadow-xl max-w-lg w-full relative transform scale-95 opacity-0 transition-all duration-300">
+          <button onclick="closeModal()" class="absolute top-4 right-4 text-gray-500 hover:text-black text-2xl font-bold">&times;</button>
+          <h2 id="modalTitle" class="text-2xl font-semibold mb-4">Judul Konten</h2>
+          <p id="modalContent" class="text-gray-700 leading-relaxed">Ini adalah isi konten</p>
+        </div>
+      </div>
+
 
       <!-- Latest Resources -->
       <section class="py-20 bg-gray-50">
@@ -95,7 +109,7 @@
           <!-- Solar Energy Articles -->
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <article class="bg-white rounded-lg shadow-lg overflow-hidden hover-lift">
-              <img src="assets/img/solar.jpg" alt="Solar Energy" class="h-48 w-full object-cover">
+              <img src="assets/articles/home-solar.jpg" alt="Solar Energy" class="h-48 w-full object-cover">
               <div class="p-6">
                 <span class="inline-block bg-eco-green-100 text-eco-green-800 text-xs font-medium px-2 py-1 rounded-full mb-2">Solar Energy</span>
                 <h3 class="text-lg font-semibold text-gray-900 mb-2">2024 Solar Panel Efficiency Report</h3>
@@ -109,7 +123,7 @@
 
             <!-- Wind Power Articles -->
             <article class="bg-white rounded-lg shadow-lg overflow-hidden hover-lift">
-              <img src="assets/img/turbin.jpg" alt="Wind Power" class="h-48 w-full object-cover">
+              <img src="assets/articles/wind-power.jpg" alt="Wind Power" class="h-48 w-full object-cover">
               <div class="p-6">
                 <span class="inline-block bg-eco-blue-100 text-eco-blue-800 text-xs font-medium px-2 py-1 rounded-full mb-2">Wind Power</span>
                 <h3 class="text-lg font-semibold text-gray-900 mb-2">Offshore Wind Farm Development</h3>
@@ -123,7 +137,7 @@
 
             <!-- Hydro Power Articles -->
             <article class="bg-white rounded-lg shadow-lg overflow-hidden hover-lift">
-              <img src="assets/img/dam.jpg" alt="Hydro Power" class="h-48 w-full object-cover">
+              <img src="assets/articles/hydro-power.jpg" alt="Hydro Power" class="h-48 w-full object-cover">
               <div class="p-6">
                 <span class="inline-block bg-cyan-100 text-cyan-800 text-xs font-medium px-2 py-1 rounded-full mb-2">Hydro Power</span>
                 <h3 class="text-lg font-semibold text-gray-900 mb-2">Micro-Hydro Systems for Rural Areas</h3>

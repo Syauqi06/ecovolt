@@ -12,7 +12,7 @@
 <section class="py-16 bg-white">
   <div class="max-w-4xl mx-auto px-4 space-y-8">
 
-    <img src="assets/img/hydro-power.jpg" alt="Hydroelectric Plant" class="w-full rounded-lg shadow-md">
+    <img src="assets/articles/hydro-power.jpg" alt="Hydroelectric Plant" class="w-full rounded-lg shadow-md">
 
     <p class="text-lg text-gray-700">
       Hydroelectric power uses flowing water to generate electricity — a reliable and time-tested renewable energy solution for communities and industries.
