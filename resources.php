@@ -112,7 +112,7 @@
               <img src="assets/articles/home-solar.jpg" alt="Solar Energy" class="h-48 w-full object-cover">
               <div class="p-6">
                 <span class="inline-block bg-eco-green-100 text-eco-green-800 text-xs font-medium px-2 py-1 rounded-full mb-2">Solar Energy</span>
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">2024 Solar Panel Efficiency Report</h3>
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">2025 Solar Panel Efficiency Report</h3>
                 <p class="text-gray-600 text-sm mb-4">Latest breakthroughs in photovoltaic technology and efficiency improvements across different panel types.</p>
                 <div class="flex items-center justify-between">
                   <span class="text-sm text-gray-500">Jun 10, 2025</span>
